@@ -5,29 +5,29 @@ local util = require("tokyonight.util")
 local tokyonight = {}
 
 tokyonight.normal = {
-  a = { bg = colors.blue, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.blue },
+  a = { bg = colors.black, fg = colors.blue },
+  b = { bg = colors.black, fg = colors.fg_sidebar },
   c = { bg = colors.bg_statusline, fg = colors.fg_sidebar },
 }
 
 tokyonight.insert = {
-  a = { bg = colors.green, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.green },
+  a = { bg = colors.black, fg = colors.red },
+  b = { bg = colors.black, fg = colors.fg_sidebar },
 }
 
 tokyonight.command = {
-  a = { bg = colors.yellow, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.yellow },
+  a = { bg = colors.black, fg = colors.yellow },
+  b = { bg = colors.black, fg = colors.fg_sidebar },
 }
 
 tokyonight.visual = {
-  a = { bg = colors.magenta, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.magenta },
+  a = { bg = colors.black, fg = colors.magenta },
+  b = { bg = colors.black, fg = colors.fg_sidebar },
 }
 
 tokyonight.replace = {
-  a = { bg = colors.red, fg = colors.black },
-  b = { bg = colors.fg_gutter, fg = colors.red },
+  a = { bg = colors.black, fg = colors.green },
+  b = { bg = colors.black, fg = colors.fg_sidebar },
 }
 
 tokyonight.inactive = {

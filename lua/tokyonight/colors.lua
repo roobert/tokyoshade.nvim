@@ -39,6 +39,18 @@ function M.setup(config)
     orange = "#ff9e64",
     yellow = "#e0af68",
 
+    rblue0 = "#000087",
+    rblue1 = "#005fff",
+    rblue2 = "#87d7ff",
+    rblue3 = "#87ffff",
+    rpurple0 = "#800080",
+    rpurple1 = "#5f00af	",
+    rpurple2 = "#8787d7",
+    -- ryellow0 = ""
+    -- ryellow1 = ""
+    -- ryellow2 = ""
+    -- ryellow3 = ""
+
     green = "#9ece6a",
     green1 = "#73daca",
     green2 = "#41a6b5",
@@ -111,16 +123,16 @@ function M.setup(config)
   colors.specialkey        = colors.dark3
   colors.preproc           = colors.blue
   colors.title             = colors.blue
-  colors.func              = colors.blue
+  colors.func              = colors.rblue2
   colors.type              = colors.blue1
   colors.special           = colors.blue1
   colors.operator          = colors.blue5
   colors.statement         = colors.magenta
   colors.identifier        = colors.magenta
   colors.matchparen        = colors.orange
-  colors.constant          = colors.orange
+  colors.constant          = colors.yellow
 
-  colors.tsparameter       = colors.yellow
+  colors.tsparameter       = colors.rblue3
   colors.tsoperator        = colors.tsoperator
   colors.tsconstructor     = colors.magenta
   colors.tsfield           = colors.green1
